@@ -1,0 +1,19 @@
+{
+  "name": "mentorbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mentorbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./mentorbot.js"
+  },
+  "author": "voldemortensen",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^5.0.0",
+    "htmlparser2": "^3.9.2",
+    "slackbotapi": "^1.3.9"
+  }
+}

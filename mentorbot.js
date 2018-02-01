@@ -42,5 +42,5 @@ slack.on('message', function (data) {
 });
 
 slack.on('team_join', function(data) {
-    slack.sendMsg('C8WTKTML3', 'Welcome <@' + data.user + '>!');
+    slack.sendMsg('C8WTKTML3', 'Welcome <@' + data.user.id + '>! Thanks for joining us!');
 });
